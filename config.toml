@@ -1,4 +1,4 @@
-baseURL = "http://www.varshithkura.com"
+baseURL = "https://kurav.github.io/hugo-vkstatic"
 title = "Varshith Kura"
 theme = "hugo-coder"
 languageCode = "en"
