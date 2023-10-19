@@ -6,7 +6,7 @@ date = "2021-02-11"
 The yolo algorithm uses a subset/type of Neural Networks called the Convolutional Neural Networks; they are very similar to ordinary Neural Networks. They are inspired by the connectivity pattern of neurons in the brain that have learnable weights and biases. Each neuron receives some inputs in a restricted vision field. The whole network of neurons overlaps to cover the entire vision field expresses a single differentiable score function: from the raw image pixels on one end to class scores at the other. And they have a loss function on the last layer and all the tips/tricks developed for learning regular Neural Networks still apply.
 ConvNet architectures assumes that the inputs are an image, which allows us to encode certain properties into the architecture. These then make the forward function more efficient to implement and vastly reduce the number of parameters in the network. 
 
-![](/yolo/img1.jpg)
+![](../../static/yolo/img1.jpg)
 
  A ConvNet arranges its neurons in three dimensions (width, height, depth), as visualized in one of the layers. Every layer of a ConvNet transforms the 3D input volume to a 3D output volume of neuron activations. In this example, the red input layer holds the image, so its width and height would be the dimensions of the image, and the depth would be 3 (Red, Green, Blue channels).
 
@@ -17,7 +17,7 @@ ConvNet architectures assumes that the inputs are an image, which allows us to e
 YOLO (You Only Look Once) is one of the best real-time object detector algorithms. It is called that way because unlike previous object detector algorithms, like R-CNN, it only needs the image (or video) to pass through its network only once.
 The yolo algorithm applies a single neural network to the full image. The image is divided into ‘S’ x ‘S’ region. If the centre of an object is in one of these regions, the region in question is responsible for detecting the object. Each of the cells in this grid is responsible for predicting ‘B’ boxes all containing an object as well as a score representing the level of confidence for the object present in the box. If there are no objects in the cell, this score should be zero. 
 
-![](/yolo/img2.jpg)
+![](../../static/yolo/img2.jpg)
 
 YOLO reasons at the level of the overall picture, rather than examining successively several regions. This allows a huge increase in detection speed but causes a small decrease in the accuracy of object detection compared to the other detection methods seen previously. It is one of the most powerful and used object detector algorithms right now in multiple fields like autonomous vehicles, poker cheat detection, and more.
 1.	YOLO reasons globally about the image when making predictions. Unlike sliding window and region proposal-based techniques, YOLO sees the entire image during training and test time so it implicitly encodes contextual information about classes as well as their appearance.
@@ -494,21 +494,21 @@ if __name__ == '__main__':
 
 ### For Images:
 
-![](/yolo/img3.jpg)
+![](../../static/yolo/img3.jpg)
 
-![](/yolo/img4.jpg)
+![](../../static/yolo/img4.jpg)
 
-![](/yolo/img5.jpg)
+![](../../static/yolo/img5.jpg)
 
-![](/yolo/img6.jpg)
+![](../../static/yolo/img6.jpg)
 
 
 
 ### For Video/Camera feed:
 
-![](/yolo/img7.jpg)
+![](../../static/yolo/img7.jpg)
 
-![](/yolo/img8.jpg)
+![](../../static/yolo/img8.jpg)
 
 
 ## References and Resources
