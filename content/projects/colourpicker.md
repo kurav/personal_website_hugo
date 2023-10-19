@@ -13,12 +13,12 @@ A color in the RGB color model can be described by indicating how much of each o
 
 The output of various clicks on the given image:
 
-![](/tos/img5.JPG)
+![](../../static/tos/img5.JPG)
 
 
 The output of thresholding the selected colour:
 
-![](/tos/img6.JPG)
+![](../../static/tos/img6.JPG)
 
 
 ## Code
