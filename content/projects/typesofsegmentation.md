@@ -6,27 +6,27 @@ date = "2021-10-15"
 
 This project aims to compare 3 different types of segmentation: Boundary-based, Region-based and clustering. I've used tkinter to create a basic UI that lets the user decide on which segmentation to view.
 
-![](/tos/img1.JPG)
+![](../../static/tos/img1.JPG)
 
 **Boundary-based:**
 
 In boundary based segmentation or edge-based segmentation, an edge filter is applied to the image, pixels are classified as edge or non-edge depending on the filter output, and pixels which are not separated by an edge are allocated to the same category.
 
-![](/tos/img2.JPG)
+![](../../static/tos/img2.JPG)
 
 
 **Region-based:**
 
 In region-based segmentation algorithms operate iteratively by grouping together pixels which are neighbours and have similar values and splitting groups of pixels which are dissimilar in value. 
 
-![](/tos/img3.JPG)
+![](../../static/tos/img3.JPG)
 
 
 **Clustering:**
 
 In K-Means clustering algorithm is an unsupervised algorithm and it is used to segment the interest area from the background. It clusters, or partitions the given data into K-clusters or parts based on the K-centroids.
 
-![](/tos/img4.JPG)
+![](../../static/tos/img4.JPG)
 
 
 ## Code:
