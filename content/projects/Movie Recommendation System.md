@@ -10,7 +10,7 @@ This recommender system uses content-based filtering by implementing the K-Neare
 
 **Methodology**
 
-![flowchart](/movierec/flowchart.jpg)
+![flowchart](../static/movierec/flowchart.jpg)
 
 _Import the python libraries:_ 
 
